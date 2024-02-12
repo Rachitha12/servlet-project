@@ -11,11 +11,11 @@
         <property name="javax.persistence.jdbc.driver"
           value="com.mysql.cj.jdbc.Driver" />
         <property name="javax.persistence.jdbc.url"
-          value="jdbc:mysql://database-1.cjcsa2ee8brv.ap-south-1.rds.amazonaws.com:3306/bonus" />
+          value="jdbc:mysql://database-1.cjcsa2ee8brv.ap-south-1.rds.amazonaws.com:3306/todo?createDatabaseIfNotExist=true" />
         <property name="javax.persistence.jdbc.user"
-          value="admin" />
+          value="admin"/>
         <property name="javax.persistence.jdbc.password"
-          value="Rootadmin" />
+          value="rootadmin"/>
         <property name="hibernate.show_sql" value="true" />
         <property name="hibernate.hbm2ddl.auto" value="update" />
         <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
